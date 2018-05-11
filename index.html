@@ -10,10 +10,19 @@
     <title>Heath's page</title>
 </head>
 <body>
-    <div id="app" class="main">
-        <h1>
-            {{message}}
-        </h1>
+    <div id="app">
+        <transition name="main-div" >
+            <div v-if="loading" class="loading">
+                    <h1>
+                        {{loadingMessage}}
+                    </h1>
+            </div>
+            <div v-else class="main">
+                <h1>
+                    {{message}}
+                </h1>
+            </div>
+        </transition>
     </div>
 
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
