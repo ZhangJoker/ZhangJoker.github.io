@@ -3,7 +3,7 @@ var app = new Vue({
     data:{
         loadFinish:false,
         tab:'none',
-        message:'Everything is coom soon...',
+        message:'Everything is cooming soon...',
         loadMessage:'Hi. I am Zhang Xiaoyan. Welcome to my site.',
         backgroundImg:'static/image/background.jpg'
     },
