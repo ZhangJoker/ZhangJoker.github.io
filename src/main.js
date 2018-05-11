@@ -1,14 +1,18 @@
 var app = new Vue({
     el:"#app",
     data:{
-        message:'Hi. I am Zhang Xiaoyan. Welcome to my site.'
+        loadFinish:false,
+        message:'Everything is coom soon...',
+        loadMessage:'Hi. I am Zhang Xiaoyan. Welcome to my site.',
+        backgroundImg:'static/image/background.jpg'
     },
     beforeMount:function(){
         
     },
-    mounted:function(){
-        this.$nextTick(function(){
-            this.message="Everything is coming soon..."
-        })
+    methods:{
+        backgroundImgLoad(){
+            this.loadFinish=true;
+        }
     }
+    
 })
