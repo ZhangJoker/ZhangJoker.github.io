@@ -12,12 +12,8 @@
 <body>
     <div id="app">
         <transition name="main-div" >
-            <div v-if="loading" class="loading">
-                    <h1>
-                        {{loadingMessage}}
-                    </h1>
-            </div>
-            <div v-else class="main">
+            <div class="main">
+                <img src="static/image/background.jpg" alt="" class="background">
                 <h1>
                     {{message}}
                 </h1>
