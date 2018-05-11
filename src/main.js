@@ -7,6 +7,8 @@ var app = new Vue({
         
     },
     mounted:function(){
-        this.message="Everything is coming soon..."
+        this.$nextTick(function(){
+            this.message="Everything is coming soon..."
+        })
     }
 })
