@@ -23,6 +23,33 @@ h1{
     line-height: 50rem;
 }
 
+.nav-bar-right{
+    position: fixed;
+    right: 0%;
+    top:0%;
+    font-size: 5rem;
+}
+.nav-bar-top{
+    position: fixed;
+    top: 0;
+    display: flex;
+    font-size: 2rem;
+}
+.nav-bar-top .nav-button{
+    margin-right:3rem;
+}
+
+.nav-button{
+    display: inherit;
+    font-family: fantasy;
+}
+
+a:not([href]):not([tabindex]):hover {
+    color: blue;
+    /* text-decoration: none; */
+    cursor: pointer;
+}
+
 .background-img-trans-enter-active {
     transition: all 3s ease;
 }

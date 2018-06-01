@@ -2,34 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>前端程序猿'page</title>
+    <meta name="description" content="">
+    <meta name="keyword" content="张啸岩">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
-
-    <title>Heath's page</title>
+    
 </head>
 <body>
     <div id="app">
-            <div class="main">
-                <transition name="background-img-trans">
-                    <img v-show="loadFinish" v-bind:src="backgroundImg" @load="backgroundImgLoad" alt="" class="background">
-                </transition>
-                <transition name="message-trans" mode="out-in">
-                    <div v-if="loadFinish">
-                        <h1>
-                            {{message}}
+        <div class="main">
+            <transition name="background-img-trans">
+                <img v-show="loadFinish" v-bind:src="backgroundImg" @load="backgroundImgLoad" alt="" class="background">
+            </transition>
+            <transition name="message-trans" mode="out-in">
+                <div v-if="loadFinish">
+                    <h1>
+                        {{message}}
                         </h1>
-                        <div id="nav-bar">
-                            <nav-button title="My life" value="myLife"></nav-button>
-                            <nav-button title="My skill" value="mySkill"></nav-button>
-                            <nav-button title="Me" value="me"></nav-button>
-                            <div id="social">
-                                
-                            </div>
-                        </div>
+                        <nav-bar v-bind:is-nav-right='isNavRight'></nav-bar>
+                        
                         <component v-bind:is="tab">
-        
+                            
                         </componant>
                     </div>
                     <div v-else>
@@ -39,10 +35,11 @@
                     </div>
                 </transition>
             </div>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="src/component/navBtn.js"></script>
-    <script src="src/main.js"></script>
-</body>
-</html>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="src/main.js"></script>
+        <script src="src/component/navBtn.js"></script>
+        <script src="src/component/nav.js"></script>
+        
+    </body>
+    </html>
