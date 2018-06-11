@@ -28,12 +28,22 @@ h1{
     right: 0%;
     top:0%;
     font-size: 5rem;
+    height: 100%;
+}
+.nav-bar-right #social{
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+}
+.nav-bar-right #social img{
+    height: 5rem;
 }
 .nav-bar-top{
     position: fixed;
     top: 0;
     display: flex;
     font-size: 2rem;
+    width: 100%;
 }
 .nav-bar-top .nav-button{
     margin-right:3rem;

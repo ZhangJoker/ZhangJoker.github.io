@@ -6,7 +6,9 @@ var app = new Vue({
         isNavRight:true,
         message:'Everything will be cooming soon...',
         loadMessage:'Hi. I am Zhang Xiaoyan. Welcome to my site.',
-        backgroundImg:'static/image/background.jpg'
+        backgroundImg:'static/image/background.jpg',
+        gitIcoSrc:'static/image/GitHub.svg',
+        linkedInSrc:'static/image/linkedin.svg'
     },
     methods:{
         backgroundImgLoad(){
