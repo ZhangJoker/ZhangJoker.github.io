@@ -8,24 +8,8 @@ Vue.component('nav-bar',{
         <nav-button title="My skill" value="mySkill"></nav-button>
         <nav-button title="My life" value="myLife"></nav-button>
         <div id="social">
-            <img :src="gitIcoSrc" v-on:mouseover="addHover(gitIcoSrc)" v-on:mouseout="moveHover(gitIcoSrc)"  >
-            <img :src="linkedInSrc">
+            <img-ico :icoSrc = "gitIcoSrc" linkSrc = "https://github.com/ZhangJoker"></img-ico>
+            <img-ico :icoSrc = "linkedInSrc" linkSrc = "https://www.linkedin.com/in/xiaoyan-zhang/"></img-ico>
         </div>
-    </div>`,
-    method:{
-        addHover(src){
-            if(src.match("-hover")===null){
-                var add=src.split(".");
-                src=add[0]+"-hover.svg";
-            }
-            console.log(src);
-        },
-        moveHover(src){
-            if(src.match("-hover")!==null){
-                var add=src.split("-");
-                src=add[0]+".svg";
-            }
-            console.log(src);
-        }
-    }
+    </div>`
 })
