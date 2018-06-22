@@ -45,6 +45,15 @@ h1{
     font-size: 2rem;
     width: 100%;
 }
+.nav-bar-top #social{
+    position: absolute;
+    bottom: 3%;
+    text-align: right;
+    right: 2%
+}
+.nav-bar-top #social img{
+    height: 2rem;
+}
 .nav-bar-top .nav-button{
     margin-right:3rem;
 }
