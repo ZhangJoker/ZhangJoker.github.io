@@ -1,7 +1,7 @@
 Vue.component('img-ico',{
     name:'img-ico',
     props:['icoSrc','linkSrc'],
-    template:`<a href="linkSrc" target="_blank"><img :src="icoSrc"  v-on:mouseover="addHover(icoSrc)" v-on:mouseout="moveHover(icoSrc)"  ></a>`,
+    template:`<a :href="linkSrc" target="_blank"><img :src="icoSrc"  v-on:mouseover="addHover(icoSrc)" v-on:mouseout="moveHover(icoSrc)"  ></a>`,
     methods:{
         addHover(src){
             console.log(src);
