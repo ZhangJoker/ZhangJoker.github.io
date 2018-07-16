@@ -18,15 +18,17 @@
                 <img v-show="loadFinish" v-bind:src="backgroundImg" @load="backgroundImgLoad" alt="" class="background">
             </transition>
             <transition name="message-trans" mode="out-in">
-                <div v-if="loadFinish">
+                <div v-if="loadFinish ">
                     <h1>
                         {{message}}
                     </h1>
                     <nav-bar v-bind:is-nav-right='isNavRight' v-bind:git-ico-src="gitIcoSrc" v-bind:linked-in-src='linkedInSrc'></nav-bar>
+                    <me-tab v-bind:tab='tab' v-bind:profile-pic='profilePic'></me-tab>
                     
-                    <component v-bind:is="tab">
-                        
-                    </componant>
+                    
+                </div>
+                <div v-if="tab">
+
                 </div>
                 <div v-else>
                     <h1>
@@ -41,6 +43,7 @@
         <script src="src/component/imgIco.js"></script>
         <script src="src/component/navBtn.js"></script>
         <script src="src/component/nav.js"></script>
+        <script src="src/component/meTab.js"></script>
         
     </body>
     </html>

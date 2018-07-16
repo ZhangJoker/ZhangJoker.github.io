@@ -44,6 +44,7 @@ h1{
     display: flex;
     font-size: 2rem;
     width: 100%;
+    background: rgb(109,109,109,0.8);
 }
 .nav-bar-top #social{
     position: absolute;

@@ -8,7 +8,8 @@ var app = new Vue({
         loadMessage:'Hi. I am Zhang Xiaoyan. Welcome to my site.',
         backgroundImg:'static/image/background.jpg',
         gitIcoSrc:'static/image/GitHub.svg',
-        linkedInSrc:'static/image/linkedin.svg'
+        linkedInSrc:'static/image/linkedin.svg',
+        profilePic:''
     },
     methods:{
         backgroundImgLoad(){
