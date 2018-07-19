@@ -15,7 +15,6 @@ Vue.component('img-ico',{
                 var add=src.split("-");
                 this.icoSrc=add[0]+".svg";
             }
-            console.log(src);
         }
     }
 })
