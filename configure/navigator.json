@@ -1,0 +1,30 @@
+{
+    "titleLink":[
+        {
+            "linkName":"About Me",
+            "routeValue":"aboutMe"
+        },
+        {
+            "linkName":"My Blog",
+            "routeValue":"myBlog"
+        },
+        {
+            "linkName":"My Life",
+            "routeValue":"myLife"
+        }
+    ],
+    "socialLink":[
+        {
+            "linkName":"gitHub",
+            "src":"https://github.com/ZhangJoker",
+            "href":"https://github.com/ZhangJoker",
+            "type":"github"
+        },
+        {
+            "linkName":"linkedIn",
+            "src":"https://www.linkedin.com/in/xiaoyan-zhang/",
+            "href":"https://www.linkedin.com/in/xiaoyan-zhang/",
+            "type":"linkedin"
+        }
+    ]
+}

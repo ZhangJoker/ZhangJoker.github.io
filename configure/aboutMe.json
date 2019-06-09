@@ -1,0 +1,17 @@
+{
+    "avatarSrc": "/img/Avatar.jpg",
+    "content": [
+        {
+            "title": "Who am I",
+            "description": "张啸岩 | 前端程序猿 | 前端BUG手"
+        },
+        {
+            "title": "Where am I",
+            "description": "一个身在杭州来自东北大城市铁岭的东北人"
+        },
+        {
+            "title": "What can I do",
+            "description": "AngularJS | CSS | HTML | ReactJS | 后端略懂 | 数据库略懂"
+        }
+    ]
+}

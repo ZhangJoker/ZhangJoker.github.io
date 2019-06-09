@@ -1,0 +1,36 @@
+{
+    "tags": [
+        {
+            "name": "JS",
+            "checked": false
+        },
+        {
+            "name":"AngularJS",
+            "checked": false
+        },
+        {
+            "name":"ReactJS",
+            "checked": false
+        },
+        {
+            "name":"VUE",
+            "checked": false
+        },
+        {
+            "name":"CSS",
+            "checked": false
+        },
+        {
+            "name":"HTML",
+            "checked": false
+        },
+        {
+            "name":"服务器",
+            "checked": false
+        },
+        {
+            "name":"牢骚",
+            "checked": false
+        }
+    ]
+}
