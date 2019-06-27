@@ -28,9 +28,9 @@
             "name":"服务器",
             "checked": false
         },
-        ,{
+        {
             "name":"VPN",
-            "checked":"false"
+            "checked": false
         },
         {
             "name":"牢骚",
