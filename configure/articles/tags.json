@@ -28,6 +28,10 @@
             "name":"服务器",
             "checked": false
         },
+        ,{
+            "name":"VPN",
+            "checked":"false"
+        },
         {
             "name":"牢骚",
             "checked": false
